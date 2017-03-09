@@ -1,0 +1,31 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use Faker\Factory  as Faker;
+
+class UsersTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     *
+     */
+
+    public function run()
+    {
+        $faker = Faker::create();
+
+        for ($i = 0;$i<100;$i++)
+        {
+            DB::table('users')->insert([
+                'nombre' => $faker->name,
+                'apellido' => $faker->lastName,
+                'fecha_nacimiento' => $faker->dateTime,
+                'email' => $faker->email,
+                'password' => bcrypt($faker->password()),
+            ]);
+        }
+
+    }
+}

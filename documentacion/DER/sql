@@ -1,0 +1,67 @@
+-- phpMyAdmin SQL Dump
+-- version 4.0.10deb1
+-- http://www.phpmyadmin.net
+--
+-- Servidor: localhost
+-- Tiempo de generación: 22-11-2016 a las 22:15:01
+-- Versión del servidor: 5.5.53-0ubuntu0.14.04.1
+-- Versión de PHP: 5.5.9-1ubuntu4.20
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Base de datos: `pa_trabajo_final`
+--
+
+--
+-- Volcado de datos para la tabla `equipos`
+--
+
+INSERT INTO `equipos` (`id`, `nombre`, `alias`, `fundado`, `fundadores`, `descripcion`, `created_at`, `updated_at`, `contacto_id`) VALUES
+(0, 'Rio de la Plata', '', '0000-00-00', '', '', '2016-11-22 17:54:42', '2016-11-22 17:54:42', NULL);
+
+--
+-- Volcado de datos para la tabla `equipo_jugador`
+--
+
+INSERT INTO `equipo_jugador` (`id`, `jugador_id`, `equipo_id`, `actual`, `created_at`, `updated_at`) VALUES
+(2, 1, 0, 1, '2016-11-22 17:59:52', '2016-11-22 17:59:53');
+
+--
+-- Volcado de datos para la tabla `equipo_user`
+--
+
+INSERT INTO `equipo_user` (`id`, `user_id`, `equipo_id`, `created_at`, `updated_at`) VALUES
+(1, 1, 0, '2016-11-22 17:54:42', '2016-11-22 17:54:42');
+
+--
+-- Volcado de datos para la tabla `jugadores`
+--
+
+INSERT INTO `jugadores` (`id`, `nombre`, `apellido`, `alias`, `altura`, `peso`, `numero`, `posicion_id`, `fecha_nacimiento`) VALUES
+(1, 'lucas', 'larre', 'El negro', 2, 80, 11, 1, '2016-11-22');
+
+--
+-- Volcado de datos para la tabla `posiciones`
+--
+
+INSERT INTO `posiciones` (`id`, `nombre`) VALUES
+(1, 'Delantero');
+
+--
+-- Volcado de datos para la tabla `users`
+--
+
+INSERT INTO `users` (`id`, `email`, `nombre`, `apellido`, `fecha_nacimiento`, `password`, `created_at`, `updated_at`, `remember_token`) VALUES
+(1, 'Liquiitass@gmail.com', 'Lucas', 'Larrea', '0000-00-00', '$2y$10$vwRaVGk7TUBqQ80UbvL6IufSmvGJpx09qpTq0b9PNGc3Zz/3/cJbq', '2016-11-22 17:54:24', '2016-11-22 17:54:24', NULL);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4a3b5cb-ea73-4000-ac76-3d4b885094cb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$" afterPath="$PROJECT_DIR$" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="3880e500-82dc-4f13-b7d2-54c06df1c2c0" name="New changelist" comment="probando push">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ComedorApostoles/inc/menu2.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/../ComedorApostoles/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/icono.ico" afterPath="$PROJECT_DIR$/../ComedorApostoles/icono.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/Anuncios/index.php" afterPath="$PROJECT_DIR$/../ComedorApostoles/Anuncios/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/Estados/index.php" afterPath="$PROJECT_DIR$/../ComedorApostoles/Estados/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/Estados/modificarEstado.php" afterPath="$PROJECT_DIR$/../ComedorApostoles/Estados/modificarEstado.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/Faltas/index.php" afterPath="$PROJECT_DIR$/../ComedorApostoles/Faltas/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/Login/estilos.css" afterPath="$PROJECT_DIR$/../ComedorApostoles/Login/estilos.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/Login/index.php" afterPath="$PROJECT_DIR$/../ComedorApostoles/Login/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/Usuario/index.php" afterPath="$PROJECT_DIR$/../ComedorApostoles/Usuario/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/comedor.sql" afterPath="$PROJECT_DIR$/../ComedorApostoles/comedor.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/../ComedorApostoles/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/css/bootstrap.css" afterPath="$PROJECT_DIR$/../ComedorApostoles/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/../ComedorApostoles/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/css/estilos.css" afterPath="$PROJECT_DIR$/../ComedorApostoles/css/estilos.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/../ComedorApostoles/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/../ComedorApostoles/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/../ComedorApostoles/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/../ComedorApostoles/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/inc/footer.php" afterPath="$PROJECT_DIR$/../ComedorApostoles/inc/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/inc/head.php" afterPath="$PROJECT_DIR$/../ComedorApostoles/inc/head.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/inc/menu.php" afterPath="$PROJECT_DIR$/../ComedorApostoles/inc/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/index.php" afterPath="$PROJECT_DIR$/../ComedorApostoles/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComedorApostoles/php/conexion.php" afterPath="$PROJECT_DIR$/../ComedorApostoles/php/conexion.php" />
+    </list>
+    <ignored path="TrabajoFinal.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - pa_trabajo_final@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - pa_trabajo_final@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="partidos" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="TrabajoFinal" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Equipo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Equipo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="63" column="5" selection-start-line="56" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PruebaController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PruebaController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+              <folding>
+                <element signature="e#40#58#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resultados.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/liga/partes/resultados.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calendario.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/liga/partes/calendario.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Torneo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Torneo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="64" column="119" selection-start-line="64" selection-start-column="119" selection-end-line="64" selection-end-column="119" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LigaController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/LigaController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Liga.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Liga.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/sidebar.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainheader.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/mainheader.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Class" />
+        <option value="UML Use Case" />
+        <option value="XSLT Stylesheet" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="artisan  migrate" />
+      <command text="artisan  migrate:rollback" />
+      <command text="artisan  migrate" />
+      <command text="artisan  migrate:rollback" />
+      <command text="artisan  migrate" />
+      <command text="artisan  route:list" />
+      <command text="artisan  view:clear" />
+      <command text="artisan  make:model TipoTorneo m" />
+      <command text="artisan  make:model TipoTorneo  -m" />
+      <command text="artisan  make:migration crete TableTipoTorneo2 --crete=tipos_torneo" />
+      <command text="artisan  make:migration creteTableTipoTorneo2 --crete=tipos_torneo" />
+      <command text="artisan  make:migration creteTableTipoTorneo2 --create=tipos_torneo" />
+      <command text="artisan  migrate" />
+      <command text="artisan  migrate:rollback" />
+      <command text="artisan  make:migration alterTableTorneosss --table=torneos" />
+      <command text="artisan  migrate" />
+      <command text="artisan  route:list" />
+      <command text="artisan  make:request LigaRequestStore" />
+      <command text="artisan  make:request LigaRequestUpdate" />
+      <command text="artisan  route:list" />
+      <command text="artisan  serve" />
+      <command text="artisan  make:migration CreateTorneoUserTable --create=torneo_user" />
+      <command text="artisan  migrate" />
+      <command text="artisan  view:clear" />
+      <command text="artisan  route:list" />
+    </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="lucas &lt;liquiitass@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LigaController.php" />
+        <option value="$PROJECT_DIR$/app/TipoTorneo.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/competencia/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/liga/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/EquipoController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/liga/comp_create.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/LigaRequestStore.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_02_27_031810_CreateTorneoUserTable.php" />
+        <option value="$PROJECT_DIR$/resources/views/equipo/comp_asociar_equipo.blade.php" />
+        <option value="$PROJECT_DIR$/app/Administradores.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/LigaRequestUpdate.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/liga/partes/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/torneo/comp_create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/liga/partes/equipos.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/liga/partes/tabla_posiciones.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/liga/root.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/modals/modal_info.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/temporada/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/liga/comp_edit.blade.php" />
+        <option value="$PROJECT_DIR$/public/plugins/datetimepicker/js/datetimepicker.min.js" />
+        <option value="$PROJECT_DIR$/public/plugins/datetimepicker/css/bootstrap_datetimepicker.min.css" />
+        <option value="$PROJECT_DIR$/public/plugins/datetimepicker/js/es.js" />
+        <option value="$PROJECT_DIR$/public/js/miScript.js" />
+        <option value="$PROJECT_DIR$/resources/views/partido/comp_edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/partials/scripts.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/partials/htmlheader.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partido/comp_edit_fecha-hora.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/partido/comp_edit_equipo-local.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/PartidoController.php" />
+        <option value="$PROJECT_DIR$/resources/views/partido/comp_select_equipos_partido.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/equipo/comp_create.blade.php" />
+        <option value="dbtable:/331fd724/2998c3de-f78d-4759-a9d5-79e11a6a4af6/pa_trabajo_final.fechas" />
+        <option value="$PROJECT_DIR$/app/Fase.php" />
+        <option value="$PROJECT_DIR$/resources/views/prueba/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/TorneoController.php" />
+        <option value="$PROJECT_DIR$/app/Grupo.php" />
+        <option value="$PROJECT_DIR$/app/Fecha.php" />
+        <option value="$PROJECT_DIR$/resources/views/equipo/comp_unEquipo.blade.php" />
+        <option value="$PROJECT_DIR$/app/Equipo.php" />
+        <option value="$PROJECT_DIR$/public/css/miCss.css" />
+        <option value="$PROJECT_DIR$/app/Partido.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/partido/comp_show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/liga/partes/resultados.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/liga/partes/calendario.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TorneoController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PruebaController.php" />
+        <option value="$PROJECT_DIR$/app/Liga.php" />
+        <option value="$PROJECT_DIR$/app/Torneo.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/LigaController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/partials/mainheader.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/classpreloader/classpreloader" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/jeremeamia/SuperClosure" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/class-loader" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
+      <path value="$PROJECT_DIR$/vendor/canerdogan/laravelcollective-html" />
+      <path value="$PROJECT_DIR$/vendor/amranidev/scaffold-interface" />
+      <path value="$PROJECT_DIR$/vendor/amranidev/ajaxis" />
+      <path value="$PROJECT_DIR$/vendor/acacha/adminlte-laravel-installer" />
+      <path value="$PROJECT_DIR$/vendor/acacha/llum" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/vendor/acacha/admin-lte-template-laravel" />
+      <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpexcel" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle" />
+      <path value="$PROJECT_DIR$/vendor/league/fractal" />
+      <path value="$PROJECT_DIR$/vendor/laracasts/flash" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/bican/roles" />
+      <path value="$PROJECT_DIR$/vendor/proengsoft/laravel-jsvalidation" />
+      <path value="$PROJECT_DIR$/vendor/laracasts/utilities" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/jenssegers/date" />
+      <path value="$PROJECT_DIR$/vendor/xethron/migrations-generator" />
+      <path value="$PROJECT_DIR$/vendor/way/generators" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="width" value="1368" />
+    <option name="height" value="749" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralPHP</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Type compatibilityPHP</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrabajoFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrabajoFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrabajoFinal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrabajoFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrabajoFinal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrabajoFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrabajoFinal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrabajoFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrabajoFinal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrabajoFinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrabajoFinal" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../open/f8a" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="SearchEverywhereHistoryKey" value="1&#9;FILE&#9;file:///var/www/html/TrabajoFinal/database/migrations/2016_12_02_120802_create_temporadas_table.php" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="database.data.extractors.current" value="SQL Inserts" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+  </component>
+  <component name="Push.Settings">
+    <excluded-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </excluded-roots>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/plugins/datetimepicker/css" />
+      <recent name="$PROJECT_DIR$/resources/views/admin/liga/partes" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Admin" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Front" />
+      <recent name="$PROJECT_DIR$/resources/views/admin/liga" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/partido" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Admin" />
+      <recent name="$PROJECT_DIR$/resources/views/admin/liga/partes" />
+      <recent name="$PROJECT_DIR$/resources/views/admin/liga" />
+      <recent name="$PROJECT_DIR$/public/img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.PaisController.php">
+    <configuration default="false" name="localhost:8000" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8000">
+      <method />
+    </configuration>
+    <configuration default="false" name="AuthController.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TrabajoFinal/app/Http/Controllers/Auth/AuthController.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="PaisController.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TrabajoFinal/app/Http/Controllers/PaisController.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote" port="8000">
+      <method>
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="localhost:8000" run_configuration_type="JavascriptDebugType" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.localhost:8000" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.AuthController.php" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.PaisController.php" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.PaisController.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.AuthController.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.localhost:8000" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4a3b5cb-ea73-4000-ac76-3d4b885094cb" name="Default" comment="" />
+      <changelist id="3880e500-82dc-4f13-b7d2-54c06df1c2c0" name="New changelist" comment="probando push" />
+      <created>1473440290071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1473440290071</updated>
+      <workItem from="1473440470514" duration="5781000" />
+      <workItem from="1473448059381" duration="2754000" />
+      <workItem from="1473450881618" duration="2072000" />
+      <workItem from="1473452974526" duration="666000" />
+      <workItem from="1473722294729" duration="1037000" />
+      <workItem from="1473723396402" duration="54000" />
+      <workItem from="1473724349131" duration="385000" />
+      <workItem from="1473777428098" duration="1877000" />
+      <workItem from="1474027457744" duration="1101000" />
+      <workItem from="1474036408444" duration="1850000" />
+      <workItem from="1474120568444" duration="922000" />
+      <workItem from="1474121538627" duration="1973000" />
+      <workItem from="1474123532007" duration="951000" />
+      <workItem from="1474206388399" duration="16938000" />
+      <workItem from="1474224918074" duration="11874000" />
+      <workItem from="1474242516127" duration="4976000" />
+      <workItem from="1474258256299" duration="3263000" />
+      <workItem from="1474286752910" duration="3896000" />
+      <workItem from="1474394701065" duration="12000000" />
+      <workItem from="1474407148030" duration="6963000" />
+      <workItem from="1474424398088" duration="9551000" />
+      <workItem from="1474494433912" duration="13392000" />
+      <workItem from="1474859703185" duration="16304000" />
+      <workItem from="1474901164248" duration="3623000" />
+      <workItem from="1474914057832" duration="2665000" />
+      <workItem from="1474934162488" duration="7380000" />
+      <workItem from="1474982745154" duration="19156000" />
+      <workItem from="1475005544704" duration="2404000" />
+      <workItem from="1475020889444" duration="13378000" />
+      <workItem from="1475071086588" duration="12211000" />
+      <workItem from="1475097531527" duration="6087000" />
+      <workItem from="1475105886673" duration="1431000" />
+      <workItem from="1475124931043" duration="10545000" />
+      <workItem from="1475167939636" duration="8738000" />
+      <workItem from="1475189949504" duration="14435000" />
+      <workItem from="1475242960744" duration="3553000" />
+      <workItem from="1475266563515" duration="2838000" />
+      <workItem from="1475269422116" duration="2166000" />
+      <workItem from="1475343818455" duration="2058000" />
+      <workItem from="1475411641890" duration="8292000" />
+      <workItem from="1475432214669" duration="4518000" />
+      <workItem from="1475533582093" duration="17950000" />
+      <workItem from="1475579564998" duration="438000" />
+      <workItem from="1475580647968" duration="861000" />
+      <workItem from="1475581530056" duration="22504000" />
+      <workItem from="1475625004049" duration="3715000" />
+      <workItem from="1475632079356" duration="13292000" />
+      <workItem from="1475675763245" duration="16976000" />
+      <workItem from="1475718706755" duration="613000" />
+      <workItem from="1475760354444" duration="884000" />
+      <workItem from="1475779828706" duration="1806000" />
+      <workItem from="1475817943486" duration="11331000" />
+      <workItem from="1475857432161" duration="7372000" />
+      <workItem from="1475868613118" duration="2070000" />
+      <workItem from="1475879743233" duration="4484000" />
+      <workItem from="1475884347337" duration="269000" />
+      <workItem from="1475929941826" duration="5520000" />
+      <workItem from="1475949209034" duration="2930000" />
+      <workItem from="1476015920220" duration="14768000" />
+      <workItem from="1476049119574" duration="4937000" />
+      <workItem from="1476107574279" duration="6879000" />
+      <workItem from="1476141130770" duration="784000" />
+      <workItem from="1476192522085" duration="17151000" />
+      <workItem from="1476224774837" duration="684000" />
+      <workItem from="1476299041729" duration="9662000" />
+      <workItem from="1476366933175" duration="7217000" />
+      <workItem from="1476815555636" duration="29623000" />
+      <workItem from="1476899716299" duration="3739000" />
+      <workItem from="1476982954834" duration="2842000" />
+      <workItem from="1476990001732" duration="14365000" />
+      <workItem from="1477051451192" duration="15331000" />
+      <workItem from="1477349971920" duration="6438000" />
+      <workItem from="1477361414203" duration="1986000" />
+      <workItem from="1477364552468" duration="2124000" />
+      <workItem from="1477401143087" duration="3138000" />
+      <workItem from="1477422171463" duration="6344000" />
+      <workItem from="1477431575348" duration="11847000" />
+      <workItem from="1477488046984" duration="4944000" />
+      <workItem from="1477495042385" duration="13904000" />
+      <workItem from="1477517475178" duration="8745000" />
+      <workItem from="1477568877869" duration="5121000" />
+      <workItem from="1477574510879" duration="25023000" />
+      <workItem from="1477676380564" duration="6613000" />
+      <workItem from="1477683398344" duration="7488000" />
+      <workItem from="1477715096161" duration="20000" />
+      <workItem from="1477878250066" duration="2519000" />
+      <workItem from="1477923509372" duration="442000" />
+      <workItem from="1477939372661" duration="7499000" />
+      <workItem from="1478000728803" duration="11824000" />
+      <workItem from="1478028964129" duration="16995000" />
+      <workItem from="1478122733592" duration="2977000" />
+      <workItem from="1478181954340" duration="42000" />
+      <workItem from="1478203451732" duration="9544000" />
+      <workItem from="1478265473193" duration="1205000" />
+      <workItem from="1478279348481" duration="4770000" />
+      <workItem from="1478296343248" duration="2017000" />
+      <workItem from="1478527600235" duration="703000" />
+      <workItem from="1478737461384" duration="120000" />
+      <workItem from="1478837755469" duration="39000" />
+      <workItem from="1479116746187" duration="30424000" />
+      <workItem from="1479297570299" duration="16309000" />
+      <workItem from="1479379996875" duration="3311000" />
+      <workItem from="1479384305241" duration="1417000" />
+      <workItem from="1479390718485" duration="9714000" />
+      <workItem from="1479473074953" duration="24000" />
+      <workItem from="1479729077740" duration="892000" />
+      <workItem from="1479769186522" duration="149000" />
+      <workItem from="1479770176700" duration="1342000" />
+      <workItem from="1479814489687" duration="3186000" />
+      <workItem from="1479822412163" duration="22384000" />
+      <workItem from="1479904649421" duration="5110000" />
+      <workItem from="1479919661740" duration="11909000" />
+      <workItem from="1479988776887" duration="12710000" />
+      <workItem from="1480007501301" duration="4587000" />
+      <workItem from="1480028506923" duration="4641000" />
+      <workItem from="1480076964638" duration="5242000" />
+      <workItem from="1480260652936" duration="839000" />
+      <workItem from="1480285718647" duration="14193000" />
+      <workItem from="1480331928734" duration="3811000" />
+      <workItem from="1480360489791" duration="8355000" />
+      <workItem from="1480385733808" duration="4908000" />
+      <workItem from="1480420414693" duration="19771000" />
+      <workItem from="1480472791105" duration="10100000" />
+      <workItem from="1480512070240" duration="615000" />
+      <workItem from="1480533654462" duration="16114000" />
+      <workItem from="1480602243054" duration="1553000" />
+      <workItem from="1480686653847" duration="3844000" />
+      <workItem from="1480697889215" duration="8399000" />
+      <workItem from="1480713272192" duration="10896000" />
+      <workItem from="1480728737276" duration="7138000" />
+      <workItem from="1480744788728" duration="7091000" />
+      <workItem from="1480780871670" duration="6109000" />
+      <workItem from="1480787516040" duration="14447000" />
+      <workItem from="1480815897829" duration="329000" />
+      <workItem from="1480816267255" duration="9215000" />
+      <workItem from="1480851469191" duration="2335000" />
+      <workItem from="1480854101414" duration="32590000" />
+      <workItem from="1480952908000" duration="600000" />
+      <workItem from="1480963933691" duration="2203000" />
+      <workItem from="1481055950870" duration="1576000" />
+      <workItem from="1481076459616" duration="792000" />
+      <workItem from="1481317363741" duration="22468000" />
+      <workItem from="1481378464431" duration="1543000" />
+      <workItem from="1481507490078" duration="9590000" />
+      <workItem from="1481560960660" duration="14611000" />
+      <workItem from="1481637463260" duration="5731000" />
+      <workItem from="1481720560893" duration="25754000" />
+      <workItem from="1481759585757" duration="14684000" />
+      <workItem from="1481774908395" duration="3753000" />
+      <workItem from="1481911403779" duration="11506000" />
+      <workItem from="1481932430385" duration="1119000" />
+      <workItem from="1482121635406" duration="812000" />
+      <workItem from="1482164766434" duration="1297000" />
+      <workItem from="1482250702913" duration="1241000" />
+      <workItem from="1482466600887" duration="1958000" />
+      <workItem from="1482700780640" duration="378000" />
+      <workItem from="1482717184090" duration="230000" />
+      <workItem from="1483558288276" duration="1050000" />
+      <workItem from="1483616587795" duration="98000" />
+      <workItem from="1483743807914" duration="3854000" />
+      <workItem from="1483756288531" duration="36000" />
+      <workItem from="1483975692811" duration="1222000" />
+      <workItem from="1484108102801" duration="700000" />
+      <workItem from="1484145084111" duration="1021000" />
+      <workItem from="1484171903388" duration="645000" />
+      <workItem from="1484570686330" duration="18000" />
+      <workItem from="1484837236488" duration="6937000" />
+      <workItem from="1484865930853" duration="2803000" />
+      <workItem from="1484929157046" duration="600000" />
+      <workItem from="1485344571742" duration="12411000" />
+      <workItem from="1485429948682" duration="8249000" />
+      <workItem from="1485611260168" duration="3259000" />
+      <workItem from="1485868095306" duration="10471000" />
+      <workItem from="1485950606495" duration="10454000" />
+      <workItem from="1485998426923" duration="5532000" />
+      <workItem from="1486004420459" duration="5866000" />
+      <workItem from="1486042865221" duration="3153000" />
+      <workItem from="1486063405805" duration="14754000" />
+      <workItem from="1486090920959" duration="9672000" />
+      <workItem from="1486151017527" duration="16097000" />
+      <workItem from="1486189289586" duration="4454000" />
+      <workItem from="1486413541249" duration="17324000" />
+      <workItem from="1486474127040" duration="13539000" />
+      <workItem from="1486519519295" duration="1196000" />
+      <workItem from="1486562164775" duration="6585000" />
+      <workItem from="1486585552249" duration="20518000" />
+      <workItem from="1486647633724" duration="19847000" />
+      <workItem from="1486729728785" duration="621000" />
+      <workItem from="1486730995118" duration="14236000" />
+      <workItem from="1486783248551" duration="4242000" />
+      <workItem from="1486939438551" duration="9211000" />
+      <workItem from="1486998054361" duration="14204000" />
+      <workItem from="1487041010586" duration="6732000" />
+      <workItem from="1487054525943" duration="8798000" />
+      <workItem from="1487128391998" duration="57000" />
+      <workItem from="1487133910153" duration="9438000" />
+      <workItem from="1487177774503" duration="47092000" />
+      <workItem from="1487262701650" duration="3438000" />
+      <workItem from="1487266157278" duration="7000" />
+      <workItem from="1487266370335" duration="10374000" />
+      <workItem from="1487300675420" duration="3171000" />
+      <workItem from="1487304947787" duration="13270000" />
+      <workItem from="1487319444177" duration="1265000" />
+      <workItem from="1487359849259" duration="2125000" />
+      <workItem from="1487362618983" duration="4598000" />
+      <workItem from="1487367576717" duration="10621000" />
+      <workItem from="1487457230822" duration="22767000" />
+      <workItem from="1487534864475" duration="11349000" />
+      <workItem from="1487560586785" duration="10284000" />
+      <workItem from="1487572861681" duration="3827000" />
+      <workItem from="1487610066647" duration="15258000" />
+      <workItem from="1487642434241" duration="8815000" />
+      <workItem from="1487707552656" duration="12307000" />
+      <workItem from="1487781369069" duration="4047000" />
+      <workItem from="1487787799875" duration="14344000" />
+      <workItem from="1487855539295" duration="2829000" />
+      <workItem from="1487966118076" duration="1204000" />
+      <workItem from="1487969079183" duration="2849000" />
+      <workItem from="1487977696155" duration="15000" />
+      <workItem from="1487994275906" duration="14377000" />
+      <workItem from="1488128959433" duration="8293000" />
+      <workItem from="1488156715094" duration="13989000" />
+      <workItem from="1488195198349" duration="16899000" />
+      <workItem from="1488230017455" duration="17997000" />
+      <workItem from="1488290857179" duration="6127000" />
+      <workItem from="1488319154127" duration="140000" />
+      <workItem from="1488549197703" duration="13352000" />
+      <workItem from="1488637424175" duration="20000" />
+      <workItem from="1488637743199" duration="7000" />
+      <workItem from="1488638080729" duration="6226000" />
+      <workItem from="1488896818366" duration="3063000" />
+      <workItem from="1488947262204" duration="819000" />
+      <workItem from="1488970770028" duration="1142000" />
+    </task>
+    <task id="LOCAL-00001" summary="Implementado:&#10;los paises, provincias, localidades">
+      <created>1475078357712</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1475078357712</updated>
+    </task>
+    <task id="LOCAL-00002" summary="probando git">
+      <created>1475583814381</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1475583814381</updated>
+    </task>
+    <task id="LOCAL-00003" summary="modulos&#10;ABM creados (migracion,modelo,controlador y vistas) -&gt;faltan terminar&#10;#pais&#10;#provincia&#10;#localidad&#10;&#10;#roles&#10;#permisos&#10;&#10;#competencia&#10;#equipo&#10;#dierccion&#10;">
+      <created>1477365529771</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1477365529771</updated>
+    </task>
+    <task id="LOCAL-00004" summary="comita antes de instalar pluguin para laravel PHP-Vars-To-Js-Transformer-&#10;&#10;Tambien se ha ceado el modelo,controller y migraciones de CONTACTO, TELEFONO">
+      <created>1477591926687</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1477591926687</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Creacion de casi todas las tablas con modelos.&#10;&#10;Equipo:&#10;se puede crear eliminar y modificar un equipo;&#10;&#10;Ale equipos se puede agregar jugadores, estadios, contacto(retocar xq se modifico la base de datos) ;&#10;&#10;&#10;Falta crear tablas de relaciones de muchos a muchos... yyyy q se yo q mas">
+      <created>1480714848118</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1480714848118</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Faaaaa se modifico una barbaridad ; &gt;).&#10;&#10;Importante...&#10;Se creo Modelo,Controller,vistas de:&#10;Competencia&#10;temporada,&#10;torneo&#10;jugadores de temporada.&#10;&#10;&#10;En equipos de modifico agunas vistas;&#10;&#10;en codigo se empezo a implementar la organizacion de una liga sencillas sin configuraciones.&#10;&#10;se elimino todas las migraciones y se crearon otras partiendo de la base de datos.&#10;&#10;Otras cosa que no me acuerdo.">
+      <created>1487316591122</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1487316591122</updated>
+    </task>
+    <task id="LOCAL-00007" summary="se esta dividiendo las vistas y los controladores para el administrador y el usuario comun.&#10;&#10;*Ya se puede generar una liga por puntos (fase-&gt;grupo-&gt;fechas-&gt;partidos)&#10;&#10;">
+      <created>1488970988362</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1488970988362</updated>
+    </task>
+    <task id="LOCAL-00008" summary="se esta dividiendo las vistas y los controladores para el administrador y el usuario comun.&#10;&#10;*Ya se puede generar una liga por puntos (fase-&gt;grupo-&gt;fechas-&gt;partidos)&#10;push">
+      <created>1488971035599</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1488971035599</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1670038000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="0" width="1368" height="749" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21818182" sideWeight="0.510451" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1719697" sideWeight="0.8866328" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3156146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66835874" sideWeight="0.52503794" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11818182" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493172" sideWeight="0.11336718" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33671743" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31023103" sideWeight="0.4848485" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24919957" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="99" y="100" width="1168" height="549" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6683417" sideWeight="0.47496206" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893288" sideWeight="0.4939394" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31658292" sideWeight="0.4939302" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66835874" sideWeight="0.52503794" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24919957" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08712121" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3156146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="99" y="100" width="1168" height="549" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6683417" sideWeight="0.47496206" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493172" sideWeight="0.11336718" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33671743" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31023103" sideWeight="0.4848485" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21818182" sideWeight="0.510451" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893288" sideWeight="0.4939394" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16969697" sideWeight="0.8866328" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31658292" sideWeight="0.4939302" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implementado:&#10;los paises, provincias, localidades" />
+    <MESSAGE value="se añadio la libreria de jsvalidation" />
+    <MESSAGE value="probando git" />
+    <MESSAGE value="modulos&#10;ABM creados (migracion,modelo,controlador y vistas) -&gt;faltan terminar&#10;#pais&#10;#provincia&#10;#localidad&#10;&#10;#roles&#10;#permisos&#10;&#10;#competencia&#10;#equipo&#10;#dierccion&#10;" />
+    <MESSAGE value="comita antes de instalar pluguin para laravel PHP-Vars-To-Js-Transformer-&#10;&#10;Tambien se ha ceado el modelo,controller y migraciones de CONTACTO, TELEFONO" />
+    <MESSAGE value="Creacion de casi todas las tablas con modelos.&#10;&#10;Equipo:&#10;se puede crear eliminar y modificar un equipo;&#10;&#10;Ale equipos se puede agregar jugadores, estadios, contacto(retocar xq se modifico la base de datos) ;&#10;&#10;&#10;Falta crear tablas de relaciones de muchos a muchos... yyyy q se yo q mas" />
+    <MESSAGE value="Faaaaa se modifico una barbaridad ; &gt;).&#10;&#10;Importante...&#10;Se creo Modelo,Controller,vistas de:&#10;Competencia&#10;temporada,&#10;torneo&#10;jugadores de temporada.&#10;&#10;&#10;En equipos de modifico agunas vistas;&#10;&#10;en codigo se empezo a implementar la organizacion de una liga sencillas sin configuraciones.&#10;&#10;se elimino todas las migraciones y se crearon otras partiendo de la base de datos.&#10;&#10;Otras cosa que no me acuerdo." />
+    <MESSAGE value="se esta dividiendo las vistas y los controladores para el administrador y el usuario comun.&#10;&#10;*Ya se puede generar una liga por puntos (fase-&gt;grupo-&gt;fechas-&gt;partidos)&#10;&#10;" />
+    <MESSAGE value="se esta dividiendo las vistas y los controladores para el administrador y el usuario comun.&#10;&#10;*Ya se puede generar una liga por puntos (fase-&gt;grupo-&gt;fechas-&gt;partidos)&#10;push" />
+    <option name="LAST_COMMIT_MESSAGE" value="se esta dividiendo las vistas y los controladores para el administrador y el usuario comun.&#10;&#10;*Ya se puede generar una liga por puntos (fase-&gt;grupo-&gt;fechas-&gt;partidos)&#10;push" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/PaisController.php</url>
+          <line>4</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/ProvinciaController.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/ImagenController.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/miScript.js</url>
+          <line>237</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/miScript.js</url>
+          <line>375</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/AjaxisBootstrap.js</url>
+          <line>111</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/AjaxisBootstrap.js</url>
+          <line>279</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/AjaxisBootstrap.js</url>
+          <line>281</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/plugins/jcrop/js/myjcrop.js</url>
+          <line>3</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/miScript.js</url>
+          <line>24</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/miScript.js</url>
+          <line>31</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/miScript.js</url>
+          <line>39</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="26" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/plugins/datetimepicker/js/datetimepicker.min.js" />
+    <entry file="file://$PROJECT_DIR$/public/plugins/datetimepicker/css/bootstrap-combined.min.css" />
+    <entry file="file://$PROJECT_DIR$/public/plugins/datetimepicker/css/bootstrap_datetimepicker.min.css" />
+    <entry file="file://$PROJECT_DIR$/public/plugins/datetimepicker/js/es.js" />
+    <entry file="file://$PROJECT_DIR$/public/plugins/daterangepicker/daterangepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/miScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partido/comp_edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" selection-start-line="9" selection-start-column="12" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/plugins/timepicker/bootstrap-timepicker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/scripts_auth.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/plugins/timepicker/bootstrap-timepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-453">
+          <caret line="192" column="18" selection-start-line="192" selection-start-column="15" selection-end-line="192" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/scripts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/htmlheader.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partido/comp_edit_fecha-hora.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PartidoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partido/comp_select_equipos_partido.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="111" selection-start-line="4" selection-start-column="111" selection-end-line="4" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partido/comp_edit_equipo-local.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/equipo/comp_create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/equipo/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/EquipoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="181" column="30" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Fase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/331fd724/2998c3de-f78d-4759-a9d5-79e11a6a4af6/pa_trabajo_final.fases">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/331fd724/2998c3de-f78d-4759-a9d5-79e11a6a4af6/pa_trabajo_final.grupos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/TorneoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="234" column="34" selection-start-line="234" selection-start-column="34" selection-end-line="234" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/331fd724/2998c3de-f78d-4759-a9d5-79e11a6a4af6/pa_trabajo_final.fechas">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/prueba/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/esc_default.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/331fd724/2998c3de-f78d-4759-a9d5-79e11a6a4af6/pa_trabajo_final.equipos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/equipo/comp_unEquipo.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Fecha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/escudo_default_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Grupo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/miCss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="492" column="20" selection-start-line="492" selection-start-column="20" selection-end-line="492" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/331fd724/2998c3de-f78d-4759-a9d5-79e11a6a4af6/pa_trabajo_final.partidos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Partido.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/partido/comp_show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Equipo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="63" column="5" selection-start-line="56" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/liga/partes/resultados.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/331fd724/2998c3de-f78d-4759-a9d5-79e11a6a4af6/pa_trabajo_final.equipo_torneo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PruebaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="e#40#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LigaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/TorneoRequestUpdate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TorneoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="165" column="43" selection-start-line="165" selection-start-column="43" selection-end-line="165" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/liga/partes/calendario.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/331fd724/2998c3de-f78d-4759-a9d5-79e11a6a4af6/pa_trabajo_final.categorias">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/331fd724/2998c3de-f78d-4759-a9d5-79e11a6a4af6/pa_trabajo_final.categoria_torneo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Torneo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="64" column="119" selection-start-line="64" selection-start-column="119" selection-end-line="64" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/LigaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Liga.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/partials/mainheader.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

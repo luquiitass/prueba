@@ -1,0 +1,522 @@
+/*elementos*/
+
+
+/*Modificando elementos predefinidos* !important*/
+.content-wrapper, .right-side {
+    background-color: #E9EBEE;
+}
+.content-alignment {
+    max-width: 1166px;
+}
+
+.nav-stacked > li > a {
+    color: #00000080;
+}
+
+.nav-stacked > li.active > a, .nav-stacked > li.active > a:hover {
+
+    font-weight: bold;
+}
+
+.dataTables_wrapper .dataTables_processing{
+    background: rgba(21, 163, 159, 0.45) !important;
+}
+
+.select2-container {
+    width: 100%!important;
+}
+
+textarea{
+    height: 150px !important;
+}
+.btn.btn-app.btn-app-ganer {
+    background-color: #ea4717;
+    color: #FFFFFF;
+}
+
+
+.col-form{
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(215, 208, 208);
+    padding-bottom: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.submenu {
+    background-color:#3C8DBC;
+}
+
+.submenu-nav > .active  > a {
+    color: #000 !important;
+}
+
+.submenu-nav > li > a:hover {
+    font-weight: bold;
+}
+
+.submenu-nav > li > a {
+    color: #FFF !important;
+}
+
+form .btn
+{
+    min-width:50%;
+}
+
+
+/* ************* Agregados*****************************/
+.centered {
+    text-align: center;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.borde{
+    border: 2px solid #000;
+}
+
+.borde-top{
+    border-top: 1px solid rgba(180, 176, 176, 0.58) !important;
+}
+
+.borde-left{
+    border-left: 1px solid rgba(180, 176, 176, 0.58) !important;
+}
+
+.borde-right{
+    padding: 3px;
+    border-right: 1px solid rgba(180, 176, 176, 0.58) !important;
+}
+
+.borde-bottom{
+    border-bottom: 1px solid rgba(180, 176, 176, 0.58) !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.divisor-5p-left{
+    margin-left: 5px;
+}
+.divisor-5p-right{
+    margin-right: 5px;
+}
+.divisor-5p-top{
+    margin-top: 5px;
+}
+.divisor-5p-bottom{
+    margin-bottom: 5px;
+}
+.separador_in_tabs{
+    padding-bottom: 10px;
+    position: relative;
+}
+.separador_in_tabs a{
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+.separador_in_tabs span{
+    color: #90949c;
+    font-weight: bold;
+
+}
+
+.separador_in_tabs .titulo{
+    line-height: 2em;
+    border-bottom: 1px solid #dddfe2;
+}
+
+.lista-datos{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(5, 0, 3, 0.73) !important;
+    font-size: 1.1em;
+}
+
+.lista-datos>li>span{
+    text-decoration: none;
+    color: #07080766 !important;
+    font-weight: normal !important;
+}
+
+.lista-datos li{
+    margin-top: 7px;
+    border-bottom: 1px solid rgba(31, 48, 31, 0.23);
+}
+
+.bg-white{
+    background: #fff !important;
+    color: #000;
+}
+
+.resaltar{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(215, 208, 208);
+    padding-bottom: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.dimissable{
+    position: relative;
+    margin-top: 7px;
+}
+
+.dimissable .borrar{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    cursor: pointer;
+}
+.dimissable .borrar:hover{
+    color: #fff;
+    padding: 5px;
+    background-color: rgba(230, 0, 42, 0.76);
+    border-radius: 5px;
+
+}
+
+.manita{
+    cursor: pointer;
+}
+
+
+.mensaje_flot{
+    font-weight: normal;
+    position: fixed;
+    z-index: 10000;
+    right: 6px;
+    top: 2px;
+    left: 6px;
+}
+
+.mensaje_flot>.formaa{
+    border: none;
+    border-radius: 60px 0px 60px 60px;
+    color: #fff;
+}
+
+.forma-success {
+    background-color: #008d4c !important;
+    color: #fff;
+}
+.forma-danger,
+.forma-error {
+    background-color: #d73925 !important;
+    color: #fff;
+}
+.forma-warning {
+    background-color: #e08e0b !important;
+    color: #fff;
+}
+.forma-info {
+    background-color: #00acd6 !important;
+    color: #fff;
+}
+
+#list_mensaje{
+    list-style: none;
+}
+
+.tab-pane> h3{
+    width: 100%;
+    width: 100%;
+    background: #78787833;
+    color: #575454;
+    margin-bottom: 20px;
+    padding: 0;
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.editar-switch>h3>span{
+    font-size: 20px;
+}
+
+.box_permisos{
+    max-height: 340px;
+    overflow-y: scroll;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+
+/*          Subtitulo con verde ;>)            */
+
+.Heading--Fancy__subtitle  {
+    text-transform: uppercase;
+    display: block;
+    font-size: .6em;
+    top: 4px;
+    color: #99c93d;
+}
+
+.Heading--Fancy span{
+    position: relative;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.Heading--Fancy span::before {
+    right: 100%;
+    margin-right: 40px;
+}
+.Heading--Fancy .linea::after, .Heading--Fancy .linea::before {
+    content: "";
+    position: absolute;
+    border-top: 3px solid #ff5c2d;
+    width: 100px;
+    height: 3px;
+    top: 50%;
+    margin-top: -3px/2;
+}
+
+.Heading--Fancy span::after {
+    left: 100%;
+    margin-left: 40px;
+}
+
+
+/*          Subtitulo con verde ;>)            */
+
+.filtros{
+
+}
+
+.filtros>.filtro{
+    display: inline-block;
+    position: relative;
+}
+
+.cargando{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 5000;
+    padding-top: 25%;
+}
+
+.loader{
+    background: url("/img/loading.gif");
+    backgroundRepeat: no-repeat;
+    backgroundPosition: top center;
+}
+
+.separador{
+    border-left: 1px solid #AB9F9F;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.back_esc_nomb{
+    background: #000;
+}
+
+
+/* ------------------------ropdown----------------------*/
+
+/* Dropdown Button */
+.dropbtn{
+    background-color: #FFF;
+    color: black;
+    padding: 6px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #c3c3c3;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: auto;
+}
+.dropdown .title{
+    width: 100%;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    max-height: 250px;
+    overflow: auto;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-left: 23px;
+    padding-bottom: 5px;
+    line-height: 2.5;
+    margin: 5px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #1B85C3;
+    border: 1px solid #AAA5A5;
+    color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #fff;
+}
+
+
+.radius_4p{
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.radius_top_4p{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.radius_4p{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.filtro{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #C3BDBD;
+    padding-bottom: 5px;
+}
+
+
+/*___________________Colores__________________*/
+.cl-azul{
+    color: blue!important;
+}
+.cl-rojo{
+    color: red;
+}
+.cl-negro-claro{
+    color: #777777!important;
+}
+
+a:hover.cl-rojo{
+    color: #ff7e74 !important;
+}
+
+/*___________________Colores__________________*/
+
+
+/********************Partidos****************/
+.partido{
+    text-align: center;
+    align-items: center;
+}
+
+.eq1{
+    width: 200px;
+    display: inline-block;
+}
+
+.vs{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+
+}
+
+.resultado{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.eq2{
+    width: 200px;
+    display: inline-block;
+}
+
+.imagen_equipo{
+    display: inline-block;
+    height: 100px;
+}
+
+.imagen_equipo img{
+    display: block;
+    width: 65px;
+    height: 65px;
+    margin: auto;
+}
+
+.inline{
+    float: left;
+}
+.clearBoth{
+    clear: both;
+}
+
+
+
+/********************Partidos****************/

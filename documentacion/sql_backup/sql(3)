@@ -1,0 +1,551 @@
+-- phpMyAdmin SQL Dump
+-- version 4.0.10deb1
+-- http://www.phpmyadmin.net
+--
+-- Servidor: localhost
+-- Tiempo de generación: 25-10-2016 a las 02:28:27
+-- Versión del servidor: 5.5.52-0ubuntu0.14.04.1
+-- Versión de PHP: 5.5.9-1ubuntu4.20
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Base de datos: `trabajo_final`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `competencias`
+--
+
+CREATE TABLE IF NOT EXISTS `competencias` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `descripcion` text COLLATE utf8_unicode_ci NOT NULL,
+  `org_partidos` enum('admin_competencia','admin_equipo') COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `competencias_nombre_unique` (`nombre`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
+
+--
+-- Volcado de datos para la tabla `competencias`
+--
+
+INSERT INTO `competencias` (`id`, `nombre`, `descripcion`, `org_partidos`, `created_at`, `updated_at`) VALUES
+(1, 'Futbol 8 Libre', '*', 'admin_competencia', '2016-10-13 14:45:53', '2016-10-13 14:45:53');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `competencia_user`
+--
+
+CREATE TABLE IF NOT EXISTS `competencia_user` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL,
+  `competencia_id` int(10) unsigned NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `competencia_user_user_id_foreign` (`user_id`),
+  KEY `competencia_user_competencia_id_foreign` (`competencia_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
+
+--
+-- Volcado de datos para la tabla `competencia_user`
+--
+
+INSERT INTO `competencia_user` (`id`, `user_id`, `competencia_id`, `created_at`, `updated_at`) VALUES
+(1, 1, 1, '2016-10-13 14:45:53', '2016-10-13 14:45:53');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `direcciones`
+--
+
+CREATE TABLE IF NOT EXISTS `direcciones` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `calle` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `altura` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `piso` int(11) DEFAULT NULL,
+  `dpto` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `estadio_id` int(10) unsigned NOT NULL,
+  `pais_id` int(10) unsigned DEFAULT NULL,
+  `provincia_id` int(10) unsigned DEFAULT NULL,
+  `localidad_id` int(10) unsigned DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `direcciones_estadio_id_foreign` (`estadio_id`),
+  KEY `direcciones_pais_id_foreign` (`pais_id`),
+  KEY `direcciones_provincia_id_foreign` (`provincia_id`),
+  KEY `direcciones_localidad_id_foreign` (`localidad_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=9 ;
+
+--
+-- Volcado de datos para la tabla `direcciones`
+--
+
+INSERT INTO `direcciones` (`id`, `calle`, `altura`, `piso`, `dpto`, `estadio_id`, `pais_id`, `provincia_id`, `localidad_id`, `created_at`, `updated_at`) VALUES
+(8, 'Los estudiantes', '1079', 0, '', 7, 2, 2, 2, '2016-10-18 19:06:57', '2016-10-18 19:06:57');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `equipos`
+--
+
+CREATE TABLE IF NOT EXISTS `equipos` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `apodo` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `fundado` date NOT NULL,
+  `fundadores` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `descripcion` text COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
+
+--
+-- Volcado de datos para la tabla `equipos`
+--
+
+INSERT INTO `equipos` (`id`, `nombre`, `apodo`, `fundado`, `fundadores`, `descripcion`, `created_at`, `updated_at`) VALUES
+(1, 'Rio de la Plata', '"Los Pichis"', '2016-10-21', 'Omar Kruger,Roni Nagel', '', '2016-10-12 23:11:51', '2016-10-12 23:11:51'),
+(2, 'River', 'Millonario', '2016-10-21', '', '', '2016-10-13 14:45:17', '2016-10-13 14:45:17'),
+(3, 'Rio de la Plata', '', '0000-00-00', '', '', '2016-10-18 19:21:43', '2016-10-18 19:21:43');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `equipo_estadio`
+--
+
+CREATE TABLE IF NOT EXISTS `equipo_estadio` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `estadio_id` int(10) unsigned NOT NULL,
+  `equipo_id` int(10) unsigned NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `equipo_estadio_estadio_id_index` (`estadio_id`),
+  KEY `equipo_estadio_equipo_id_index` (`equipo_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=6 ;
+
+--
+-- Volcado de datos para la tabla `equipo_estadio`
+--
+
+INSERT INTO `equipo_estadio` (`id`, `estadio_id`, `equipo_id`, `created_at`, `updated_at`) VALUES
+(4, 7, 1, '2016-10-18 19:08:18', '2016-10-18 19:08:19'),
+(5, 7, 2, '2016-10-21 21:16:20', '2016-10-21 21:16:23');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `equipo_user`
+--
+
+CREATE TABLE IF NOT EXISTS `equipo_user` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL,
+  `equipo_id` int(10) unsigned NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `equipo_user_user_id_foreign` (`user_id`),
+  KEY `equipo_user_equipo_id_foreign` (`equipo_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
+
+--
+-- Volcado de datos para la tabla `equipo_user`
+--
+
+INSERT INTO `equipo_user` (`id`, `user_id`, `equipo_id`, `created_at`, `updated_at`) VALUES
+(1, 1, 1, '2016-10-12 23:11:51', '2016-10-12 23:11:51'),
+(2, 1, 2, '2016-10-13 14:45:17', '2016-10-13 14:45:17'),
+(3, 1, 3, '2016-10-18 19:21:43', '2016-10-18 19:21:43');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `estadios`
+--
+
+CREATE TABLE IF NOT EXISTS `estadios` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `alias` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `capasidad` int(11) NOT NULL,
+  `iluminado` tinyint(1) NOT NULL,
+  `arquitectos` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `dueños` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `inauguracion` date NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `estadios_nombre_unique` (`nombre`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=8 ;
+
+--
+-- Volcado de datos para la tabla `estadios`
+--
+
+INSERT INTO `estadios` (`id`, `nombre`, `alias`, `capasidad`, `iluminado`, `arquitectos`, `dueños`, `inauguracion`, `created_at`, `updated_at`) VALUES
+(7, 'Donato ruis Dia', 'Cuna', 1000, 0, 'Larrea Lucas, Otros pilili', 'LArrea Lucas', '0000-00-00', '2016-10-18 19:06:57', '2016-10-18 19:06:57');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `localidades`
+--
+
+CREATE TABLE IF NOT EXISTS `localidades` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `provincia_id` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `localidades_provincia_id_foreign` (`provincia_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=17 ;
+
+--
+-- Volcado de datos para la tabla `localidades`
+--
+
+INSERT INTO `localidades` (`id`, `nombre`, `provincia_id`) VALUES
+(2, 'Leandro N. Alem', 2),
+(13, 'Obera', 2),
+(14, 'Posadas', 2),
+(15, 'Apostoles', 2),
+(16, 'mama', 2);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `migrations`
+--
+
+CREATE TABLE IF NOT EXISTS `migrations` (
+  `migration` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `batch` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `migrations`
+--
+
+INSERT INTO `migrations` (`migration`, `batch`) VALUES
+('2014_10_12_000000_create_users_table', 1),
+('2014_10_12_100000_create_password_resets_table', 1),
+('2015_01_15_105324_create_roles_table', 1),
+('2015_01_15_114412_create_role_user_table', 1),
+('2015_01_26_115212_create_permissions_table', 1),
+('2015_01_26_115523_create_permission_role_table', 1),
+('2015_02_09_132439_create_permission_user_table', 1),
+('2015_10_31_162633_scaffoldinterfaces', 1),
+('2016_09_17_112208_paises', 1),
+('2016_09_17_113604_provincias', 1),
+('2016_09_21_075519_localidades', 1),
+('2016_09_21_201142_alter_table_localidades', 1),
+('2016_09_30_172632_create_competencias_table', 1),
+('2016_10_04_000041_updateTableUser', 1),
+('2016_10_04_105239_CreateCompetenciaUserTable', 1),
+('2016_10_07_141212_alterTableCompetencias', 1),
+('2016_10_07_163338_create_torneos_table', 1),
+('2016_10_07_165736_create_equipos_table', 1),
+('2016_10_08_100539_createMigrationEquipoUser', 1),
+('2016_10_11_193138_createTableEstadios', 2),
+('2016_10_12_162238_create_direccion_table', 3),
+('2016_10_13_114912_create_estadio_equipo_table', 4);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `paises`
+--
+
+CREATE TABLE IF NOT EXISTS `paises` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=20 ;
+
+--
+-- Volcado de datos para la tabla `paises`
+--
+
+INSERT INTO `paises` (`id`, `nombre`) VALUES
+(2, 'Argentina'),
+(3, 'Paraguay'),
+(4, 'Uruguay'),
+(5, 'Chile'),
+(19, 'China');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `password_resets`
+--
+
+CREATE TABLE IF NOT EXISTS `password_resets` (
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `token` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  KEY `password_resets_email_index` (`email`),
+  KEY `password_resets_token_index` (`token`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `permissions`
+--
+
+CREATE TABLE IF NOT EXISTS `permissions` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `slug` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `description` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `model` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `permissions_slug_unique` (`slug`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `permission_role`
+--
+
+CREATE TABLE IF NOT EXISTS `permission_role` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `permission_id` int(10) unsigned NOT NULL,
+  `role_id` int(10) unsigned NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `permission_role_permission_id_index` (`permission_id`),
+  KEY `permission_role_role_id_index` (`role_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `permission_user`
+--
+
+CREATE TABLE IF NOT EXISTS `permission_user` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `permission_id` int(10) unsigned NOT NULL,
+  `user_id` int(10) unsigned NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `permission_user_permission_id_index` (`permission_id`),
+  KEY `permission_user_user_id_index` (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `provincias`
+--
+
+CREATE TABLE IF NOT EXISTS `provincias` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `pais_id` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `provincias_pais_id_foreign` (`pais_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=27 ;
+
+--
+-- Volcado de datos para la tabla `provincias`
+--
+
+INSERT INTO `provincias` (`id`, `nombre`, `pais_id`) VALUES
+(2, 'Misiones', 2),
+(6, 'Cordoba', 2),
+(7, 'Chaco', 2),
+(8, 'Formosa', 2),
+(26, 'nuevo', 2);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `roles`
+--
+
+CREATE TABLE IF NOT EXISTS `roles` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `slug` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `description` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `level` int(11) NOT NULL DEFAULT '1',
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `roles_slug_unique` (`slug`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `role_user`
+--
+
+CREATE TABLE IF NOT EXISTS `role_user` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `role_id` int(10) unsigned NOT NULL,
+  `user_id` int(10) unsigned NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `role_user_role_id_index` (`role_id`),
+  KEY `role_user_user_id_index` (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `scaffoldinterfaces`
+--
+
+CREATE TABLE IF NOT EXISTS `scaffoldinterfaces` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `package` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `migration` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `model` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `controller` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `views` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `tablename` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `torneos`
+--
+
+CREATE TABLE IF NOT EXISTS `torneos` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `fecha_inicio` date NOT NULL,
+  `descripcion` text COLLATE utf8_unicode_ci NOT NULL,
+  `estado` enum('activo','inactivo') COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `users`
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `remember_token` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `users_email_unique` (`email`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
+
+--
+-- Volcado de datos para la tabla `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `email`, `password`, `created_at`, `updated_at`, `remember_token`) VALUES
+(1, 'Lucas', 'Liquiitass@gmail.com', '$2y$10$7bYsUHX6ZVfh1ziMG4sQueI24RahA//J80IvYU1QRa4QXCVSJLmjK', '2016-10-11 22:01:27', '2016-10-20 22:41:56', 'sGwfC21T70LDN2Olw8ARmJqEkUHucjsC54jukouWOzeeYjtY5ZzZLnixwS72');
+
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `competencia_user`
+--
+ALTER TABLE `competencia_user`
+  ADD CONSTRAINT `competencia_user_competencia_id_foreign` FOREIGN KEY (`competencia_id`) REFERENCES `competencias` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `competencia_user_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE;
+
+--
+-- Filtros para la tabla `direcciones`
+--
+ALTER TABLE `direcciones`
+  ADD CONSTRAINT `direcciones_estadio_id_foreign` FOREIGN KEY (`estadio_id`) REFERENCES `estadios` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `direcciones_localidad_id_foreign` FOREIGN KEY (`localidad_id`) REFERENCES `localidades` (`id`),
+  ADD CONSTRAINT `direcciones_pais_id_foreign` FOREIGN KEY (`pais_id`) REFERENCES `paises` (`id`),
+  ADD CONSTRAINT `direcciones_provincia_id_foreign` FOREIGN KEY (`provincia_id`) REFERENCES `provincias` (`id`);
+
+--
+-- Filtros para la tabla `equipo_estadio`
+--
+ALTER TABLE `equipo_estadio`
+  ADD CONSTRAINT `equipo_estadio_equipo_id_foreign` FOREIGN KEY (`equipo_id`) REFERENCES `equipos` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `equipo_estadio_estadio_id_foreign` FOREIGN KEY (`estadio_id`) REFERENCES `estadios` (`id`) ON DELETE CASCADE;
+
+--
+-- Filtros para la tabla `equipo_user`
+--
+ALTER TABLE `equipo_user`
+  ADD CONSTRAINT `equipo_user_equipo_id_foreign` FOREIGN KEY (`equipo_id`) REFERENCES `equipos` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `equipo_user_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE;
+
+--
+-- Filtros para la tabla `localidades`
+--
+ALTER TABLE `localidades`
+  ADD CONSTRAINT `localidades_provincia_id_foreign` FOREIGN KEY (`provincia_id`) REFERENCES `provincias` (`id`);
+
+--
+-- Filtros para la tabla `permission_role`
+--
+ALTER TABLE `permission_role`
+  ADD CONSTRAINT `permission_role_permission_id_foreign` FOREIGN KEY (`permission_id`) REFERENCES `permissions` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `permission_role_role_id_foreign` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE;
+
+--
+-- Filtros para la tabla `permission_user`
+--
+ALTER TABLE `permission_user`
+  ADD CONSTRAINT `permission_user_permission_id_foreign` FOREIGN KEY (`permission_id`) REFERENCES `permissions` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `permission_user_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE;
+
+--
+-- Filtros para la tabla `provincias`
+--
+ALTER TABLE `provincias`
+  ADD CONSTRAINT `provincias_pais_id_foreign` FOREIGN KEY (`pais_id`) REFERENCES `paises` (`id`);
+
+--
+-- Filtros para la tabla `role_user`
+--
+ALTER TABLE `role_user`
+  ADD CONSTRAINT `role_user_role_id_foreign` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `role_user_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'run-script',
+1 verbose cli   'dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose run-script [ 'predev', 'dev', 'postdev' ]
+6 info predev @
+7 info dev @
+8 verbose unsafe-perm in lifecycle true
+9 info @ Failed to exec dev script
+10 error @ dev: `gulp watch`
+10 error Exit status 127
+11 error Failed at the @ dev script.
+11 error This is most likely a problem with the  package,
+11 error not with npm itself.
+11 error Tell the author that this fails on your system:
+11 error     gulp watch
+11 error You can get their info via:
+11 error     npm owner ls
+11 error There is likely additional logging output above.
+12 error System Linux 3.19.0-32-generic
+13 error command "/usr/bin/node" "/usr/lib/node_modules/npm/bin/npm-cli.js" "run-script" "dev"
+14 error cwd /var/www/html/TrabajoFinal
+15 error node -v v0.10.37
+16 error npm -v 1.4.28
+17 error code ELIFECYCLE
+18 verbose exit [ 1, true ]
+erbose exit [ 1, true ]
